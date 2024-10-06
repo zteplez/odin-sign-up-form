@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+}
+
+.side-bar{
+    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg")   ;
+}
