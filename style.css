@@ -57,7 +57,7 @@
     padding-left: 2%;
 }
 .main-top p{
-    width: 60%;
+    width: 70%;
     margin: 0 0 2.5% 2.5%;
     font-size: 22px;
 }
@@ -97,7 +97,7 @@ form .input-row{
 input[type=text]{
     width: 70%;
     height: 1.5rem;
-    
+    border: 1px solid #E5E7EB;
 }
 .main-bottom{
     background-color: #f9fafb;
@@ -105,14 +105,12 @@ input[type=text]{
     box-shadow: 0 6px 24px rgba(0, 0, 0, 1);
 
 }
-.main-bottom>*{
-    margin: 2vw 0 0 2.5vw;
-}
+
 .main-bottom input[type=submit]{
     background-color: #596D48;
     width: 30%;
     height: 27.5%;
-    margin-top: 5vh;
+    margin: 5vh 0 0 2.5vw;
     padding: 10px 0px 10px 0px;
     border: none;
     border-radius: 10px;
@@ -121,6 +119,9 @@ input[type=text]{
     color: #fff;
     text-align: center;
     cursor: pointer;
+}
+.main-bottom p{
+    margin: 2.5vh 0 0 2.5vw;
 }
 .main-bottom p b{
     color: #596D48 ;
