@@ -76,13 +76,13 @@
     flex-direction: column;
     width: 60%;
     height: 100%;
-    gap:1.25rem;
+    gap:1.5rem;
 
 }
 form .input-row{
     display: flex;
     justify-content: space-between;
-    margin: 0 0 0 2.5%;
+    margin: 2% 0 0 2.5%;
     gap: 1rem;
 }
 .input-row .input-group{
@@ -94,16 +94,16 @@ form .input-row{
 .input-group label{
     font-size: 18px;
 }
-input[type=text]{
+input{
     width: 70%;
     height: 1.5rem;
     border: 1px solid #E5E7EB;
+    border-radius: 2px;
 }
 .main-bottom{
     background-color: #f9fafb;
     height: 30%;
     box-shadow: 0 6px 24px rgba(0, 0, 0, 1);
-
 }
 
 .main-bottom input[type=submit]{
@@ -129,4 +129,12 @@ input[type=text]{
 }
 .main-bottom p b:hover, .main-bottom input[type=submit]:hover{
     opacity: .75;
+}
+
+input[type=password]:invalid{
+    border: 1px solid red;
+}
+.main input:focus{
+    border: 2px solid rgb(0, 40, 200);
+    box-shadow: 0 4px 12px rgba(125, 0, 150, 1);
 }
