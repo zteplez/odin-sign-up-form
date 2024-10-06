@@ -15,7 +15,7 @@
 }
 
 .side-bar{
-    width: 25%;
+    width: 35%;
     background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     position: relative;
@@ -41,5 +41,31 @@
     font-weight: 900;
     font-size: 72px;
     color:white;
+}
 
+.main{
+    width: 100%;
+}
+
+.main-top{
+    background-color: grey;
+    height: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: .5rem;
+}
+.main-top p{
+    width: 60%;
+    margin: 0 0 2.5% 5%;
+    font-size: 22px;
+    color: #fff;
+}
+.main-mid{
+    background-color: #fff;
+    height: 30%;
+}
+.main-bottom{
+    background-color: grey;
+    height: 35%;
 }
