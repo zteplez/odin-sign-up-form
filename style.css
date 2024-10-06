@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('../assets/Norse-Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+ }
+
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +16,117 @@
 }
 
 .side-bar{
-    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg")   ;
+    width: 40%;
+    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.title{
+    background: rgba(0,0,0,0.5);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+.logo{
+    padding: 1rem;
+    opacity: 1;
+    width: 30%;
+    height: auto;
+}
+.odin-text{
+    font-family: 'NorseBold';
+    font-weight: 900;
+    font-size: 72px;
+    color:white;
+}
+
+.main{
+    width: 100%;
+}
+.main-top{
+    background-color: #f9fafb;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: .5rem;
+    padding-left: 2%;
+}
+.main-top p{
+    width: 70%;
+    margin: 0 0 2.5% 2.5%;
+    font-size: 22px;
+}
+.main-mid{
+    background-color: #fff;
+    height: 40%;
+    padding-left: 2vw;
+}
+.main-mid span{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin: 1% 0 0 2.5%;
+}
+.main-mid form{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    gap:1.25rem;
+
+}
+form .input-row{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 0 2.5%;
+    gap: 1rem;
+}
+.input-row .input-group{
+    display: flex;
+    flex-direction: column;
+    gap: 0px 32px;
+    width: 50%;
+}
+.input-group label{
+    font-size: 18px;
+}
+input[type=text]{
+    width: 70%;
+    height: 1.5rem;
+    border: 1px solid #E5E7EB;
+}
+.main-bottom{
+    background-color: #f9fafb;
+    height: 30%;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 1);
+
+}
+
+.main-bottom input[type=submit]{
+    background-color: #596D48;
+    width: 30%;
+    height: 27.5%;
+    margin: 5vh 0 0 2.5vw;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.main-bottom p{
+    margin: 2.5vh 0 0 2.5vw;
+}
+.main-bottom p b{
+    color: #596D48 ;
+    cursor: pointer;
+}
+.main-bottom p b:hover, .main-bottom input[type=submit]:hover{
+    opacity: .75;
 }
