@@ -4,6 +4,7 @@
     font-weight: 700;
     font-style: normal;
  }
+
 *{
     margin: 0;
     padding: 0;
@@ -15,7 +16,7 @@
 }
 
 .side-bar{
-    width: 35%;
+    width: 40%;
     background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
     background-size: cover;
     position: relative;
@@ -46,24 +47,24 @@
 .main{
     width: 100%;
 }
-
 .main-top{
-    background-color: grey;
-    height: 35%;
+    background-color: #f9fafb;
+    height: 30%;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: .5rem;
+    padding-left: 2%;
 }
 .main-top p{
     width: 60%;
     margin: 0 0 2.5% 2.5%;
     font-size: 22px;
-    color: #fff;
 }
 .main-mid{
     background-color: #fff;
     height: 40%;
+    padding-left: 2vw;
 }
 .main-mid span{
     font-weight: 800;
@@ -75,7 +76,8 @@
     flex-direction: column;
     width: 60%;
     height: 100%;
-    gap:1.25rem
+    gap:1.25rem;
+
 }
 form .input-row{
     display: flex;
@@ -98,6 +100,32 @@ input[type=text]{
     
 }
 .main-bottom{
-    background-color: grey;
-    height: 25%;
+    background-color: #f9fafb;
+    height: 30%;
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 1);
+
+}
+.main-bottom>*{
+    margin: 2vw 0 0 2.5vw;
+}
+.main-bottom input[type=submit]{
+    background-color: #596D48;
+    width: 30%;
+    height: 27.5%;
+    margin-top: 5vh;
+    padding: 10px 0px 10px 0px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+.main-bottom p b{
+    color: #596D48 ;
+    cursor: pointer;
+}
+.main-bottom p b:hover, .main-bottom input[type=submit]:hover{
+    opacity: .75;
 }
