@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'NorseBold';
+    src: url('../assets/Norse-Bold.otf');
+    font-weight: 700;
+    font-style: normal;
+ }
 *{
     margin: 0;
     padding: 0;
@@ -9,5 +15,31 @@
 }
 
 .side-bar{
-    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg")   ;
+    width: 25%;
+    background-image: url("assets/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+.title{
+    background: rgba(0,0,0,0.5);    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+.logo{
+    padding: 1rem;
+    opacity: 1;
+    width: 30%;
+    height: auto;
+}
+.odin-text{
+    font-family: 'NorseBold';
+    font-weight: 900;
+    font-size: 72px;
+    color:white;
+
 }
